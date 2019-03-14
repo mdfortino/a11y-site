@@ -8,7 +8,7 @@ class Tools extends React.Component{
         return(
           <div>
             <h1>Tools</h1>
-            <p>Count: {this.state.count}</p>
+            <p>Here are some tools</p>
             <button onClick={() => this.setState({count: this.state.count + 1})}>+</button>
             <button onClick={() => this.setState({count: this.state.count - 1})}>-</button>
           </div>
