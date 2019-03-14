@@ -14,7 +14,7 @@ class Tools extends React.Component{
             <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
           <div>
             <h1>Tools</h1> 
-            <p>Based on the WCAG 2.1, here is a compilation of tools, which are organized by each guideline.</p>
+            <p>Based on WCAG 2.1, here is a compilation of tools, which are organized by each guideline.</p>
 
             <h2> <Link to="/perceivable">Perceivable</Link></h2> 
             <h2><Link to="/operable">Operable</Link></h2>
