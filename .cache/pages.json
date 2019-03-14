@@ -20,8 +20,38 @@
         "path": "/about/"
     },
     {
+        "componentChunkName": "component---src-pages-conformance-js",
+        "jsonName": "conformance-cbb",
+        "path": "/conformance/"
+    },
+    {
+        "componentChunkName": "component---cache-dev-404-page-js",
+        "jsonName": "dev-404-page-5f9",
+        "path": "/dev-404-page/"
+    },
+    {
+        "componentChunkName": "component---src-pages-operable-js",
+        "jsonName": "operable-dd8",
+        "path": "/operable/"
+    },
+    {
+        "componentChunkName": "component---src-pages-perceivable-js",
+        "jsonName": "perceivable-9ef",
+        "path": "/perceivable/"
+    },
+    {
+        "componentChunkName": "component---src-pages-robust-js",
+        "jsonName": "robust-41d",
+        "path": "/robust/"
+    },
+    {
         "componentChunkName": "component---src-pages-tools-js",
         "jsonName": "tools-211",
         "path": "/tools/"
+    },
+    {
+        "componentChunkName": "component---src-pages-understandable-js",
+        "jsonName": "understandable-562",
+        "path": "/understandable/"
     }
 ]

@@ -1,4 +1,8 @@
 import React from 'react'
+import { Link } from "gatsby"
+import Layout from "../components/layout"
+import SEO from "../components/seo"
+
 class Tools extends React.Component{
     constructor() {
         super()
@@ -6,12 +10,19 @@ class Tools extends React.Component{
     }
     render() {
         return(
+            <Layout>
+            <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
           <div>
-            <h1>Tools</h1>
-            <p>Here are some tools</p>
-            <button onClick={() => this.setState({count: this.state.count + 1})}>+</button>
-            <button onClick={() => this.setState({count: this.state.count - 1})}>-</button>
+            <h1>Tools</h1> 
+            <p>Based on the WCAG 2.1, here is a compilation of tools, which are organized by each guideline.</p>
+
+            <h2> <Link to="/perceivable">Perceivable</Link></h2> 
+            <h2><Link to="/operable">Operable</Link></h2>
+            <h2><Link to="/understandable">Understandable</Link></h2>
+           <h2> <Link to="/conformance">Conformance</Link></h2>
+
           </div>
+          </Layout>
         )
     }
 }

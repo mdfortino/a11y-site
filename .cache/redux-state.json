@@ -1,13 +1,22 @@
 {
   "nodes": {
     "SitePage /dev-404-page/": {
+      "jsonName": "dev-404-page-5f9",
+      "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
+      "component": "/Users/gamacbook/wdi/projects/a11y-project/a11y-site/.cache/dev-404-page.js",
+      "componentChunkName": "component---cache-dev-404-page-js",
+      "context": {},
+      "pluginCreator___NODE": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "pluginCreatorId": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "componentPath": "/Users/gamacbook/wdi/projects/a11y-project/a11y-site/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": null,
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
+        "contentDigest": "c0ded584b495a0c960ba92d1f47c3be1",
+        "description": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
         "owner": "internal-data-bridge"
       }
     },
@@ -297,6 +306,14 @@
           {
             "name": "prettier",
             "version": "^1.16.4"
+          },
+          {
+            "name": "surge",
+            "version": "latest"
+          },
+          {
+            "name": "git-scripts",
+            "version": "latest"
           }
         ],
         "peerDependencies": [],
@@ -417,14 +434,16 @@
         "description": "An accessible website about accessibility ",
         "author": "@gatsbyjs"
       },
+      "port": "8000",
+      "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-03-14T01:05:04.101Z",
+      "buildTime": "2019-03-14T01:48:31.017Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "a46989b352f6189af1d199b87d7acc3c",
+        "contentDigest": "4d1dbbe53468eac0e695d3b89b3f01b5",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -528,11 +547,111 @@
         "description": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
         "owner": "internal-data-bridge"
       }
+    },
+    "SitePage /perceivable/": {
+      "jsonName": "perceivable-9ef",
+      "internalComponentName": "ComponentPerceivable",
+      "path": "/perceivable/",
+      "component": "/Users/gamacbook/wdi/projects/a11y-project/a11y-site/src/pages/perceivable.js",
+      "componentChunkName": "component---src-pages-perceivable-js",
+      "context": {},
+      "pluginCreator___NODE": "379323b3-544d-55ab-9d20-23396a6ff9df",
+      "pluginCreatorId": "379323b3-544d-55ab-9d20-23396a6ff9df",
+      "componentPath": "/Users/gamacbook/wdi/projects/a11y-project/a11y-site/src/pages/perceivable.js",
+      "id": "SitePage /perceivable/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "e125f29762c90393e71a7ad278aab2ae",
+        "description": "379323b3-544d-55ab-9d20-23396a6ff9df",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /operable/": {
+      "jsonName": "operable-dd8",
+      "internalComponentName": "ComponentOperable",
+      "path": "/operable/",
+      "component": "/Users/gamacbook/wdi/projects/a11y-project/a11y-site/src/pages/operable.js",
+      "componentChunkName": "component---src-pages-operable-js",
+      "context": {},
+      "pluginCreator___NODE": "379323b3-544d-55ab-9d20-23396a6ff9df",
+      "pluginCreatorId": "379323b3-544d-55ab-9d20-23396a6ff9df",
+      "componentPath": "/Users/gamacbook/wdi/projects/a11y-project/a11y-site/src/pages/operable.js",
+      "id": "SitePage /operable/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "d4c94b5fb250c46734e1c76ef907b9ab",
+        "description": "379323b3-544d-55ab-9d20-23396a6ff9df",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /understandable/": {
+      "jsonName": "understandable-562",
+      "internalComponentName": "ComponentUnderstandable",
+      "path": "/understandable/",
+      "component": "/Users/gamacbook/wdi/projects/a11y-project/a11y-site/src/pages/understandable.js",
+      "componentChunkName": "component---src-pages-understandable-js",
+      "context": {},
+      "pluginCreator___NODE": "379323b3-544d-55ab-9d20-23396a6ff9df",
+      "pluginCreatorId": "379323b3-544d-55ab-9d20-23396a6ff9df",
+      "componentPath": "/Users/gamacbook/wdi/projects/a11y-project/a11y-site/src/pages/understandable.js",
+      "id": "SitePage /understandable/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "a9f063aefd96c70f7a40f49086106366",
+        "description": "379323b3-544d-55ab-9d20-23396a6ff9df",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /robust/": {
+      "jsonName": "robust-41d",
+      "internalComponentName": "ComponentRobust",
+      "path": "/robust/",
+      "component": "/Users/gamacbook/wdi/projects/a11y-project/a11y-site/src/pages/robust.js",
+      "componentChunkName": "component---src-pages-robust-js",
+      "context": {},
+      "pluginCreator___NODE": "379323b3-544d-55ab-9d20-23396a6ff9df",
+      "pluginCreatorId": "379323b3-544d-55ab-9d20-23396a6ff9df",
+      "componentPath": "/Users/gamacbook/wdi/projects/a11y-project/a11y-site/src/pages/robust.js",
+      "id": "SitePage /robust/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "7249d1a4e02d7be0856c97a7b5791371",
+        "description": "379323b3-544d-55ab-9d20-23396a6ff9df",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /conformance/": {
+      "jsonName": "conformance-cbb",
+      "internalComponentName": "ComponentConformance",
+      "path": "/conformance/",
+      "component": "/Users/gamacbook/wdi/projects/a11y-project/a11y-site/src/pages/conformance.js",
+      "componentChunkName": "component---src-pages-conformance-js",
+      "context": {},
+      "pluginCreator___NODE": "379323b3-544d-55ab-9d20-23396a6ff9df",
+      "pluginCreatorId": "379323b3-544d-55ab-9d20-23396a6ff9df",
+      "componentPath": "/Users/gamacbook/wdi/projects/a11y-project/a11y-site/src/pages/conformance.js",
+      "id": "SitePage /conformance/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "3f2869ea5ab217938e5b9cd1c02e86cc",
+        "description": "379323b3-544d-55ab-9d20-23396a6ff9df",
+        "owner": "internal-data-bridge"
+      }
     }
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "76d1f55b701859a221aa0cbe55539064"
+    "PLUGINS_HASH": "1538eee367a0ecfb40e9f1b22568f3c7"
   },
   "componentDataDependencies": {
     "nodes": {
@@ -551,7 +670,12 @@
     "index": "173/path---index-6a9-NZuapzHg3X9TaN1iIixfv1W23E",
     "about-f34": "125/path---about-f-34-4c2-NZuapzHg3X9TaN1iIixfv1W23E",
     "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E",
-    "tools-211": "242/path---tools-211-862-NZuapzHg3X9TaN1iIixfv1W23E"
+    "tools-211": "242/path---tools-211-862-NZuapzHg3X9TaN1iIixfv1W23E",
+    "perceivable-9ef": "636/path---perceivable-9-ef-f8f-NZuapzHg3X9TaN1iIixfv1W23E",
+    "operable-dd8": "80/path---operable-dd-8-c5c-NZuapzHg3X9TaN1iIixfv1W23E",
+    "understandable-562": "861/path---understandable-562-95f-NZuapzHg3X9TaN1iIixfv1W23E",
+    "robust-41d": "979/path---robust-41-d-718-NZuapzHg3X9TaN1iIixfv1W23E",
+    "conformance-cbb": "323/path---conformance-cbb-6a9-NZuapzHg3X9TaN1iIixfv1W23E"
   },
   "components": {
     "/Users/gamacbook/wdi/projects/a11y-project/a11y-site/src/pages/404.js": {
@@ -569,17 +693,33 @@
     "/Users/gamacbook/wdi/projects/a11y-project/a11y-site/src/pages/tools.js": {
       "query": "",
       "componentPath": "/Users/gamacbook/wdi/projects/a11y-project/a11y-site/src/pages/tools.js"
+    },
+    "/Users/gamacbook/wdi/projects/a11y-project/a11y-site/.cache/dev-404-page.js": {
+      "query": "",
+      "componentPath": "/Users/gamacbook/wdi/projects/a11y-project/a11y-site/.cache/dev-404-page.js"
+    },
+    "/Users/gamacbook/wdi/projects/a11y-project/a11y-site/src/pages/perceivable.js": {
+      "query": "",
+      "componentPath": "/Users/gamacbook/wdi/projects/a11y-project/a11y-site/src/pages/perceivable.js"
+    },
+    "/Users/gamacbook/wdi/projects/a11y-project/a11y-site/src/pages/operable.js": {
+      "query": "",
+      "componentPath": "/Users/gamacbook/wdi/projects/a11y-project/a11y-site/src/pages/operable.js"
+    },
+    "/Users/gamacbook/wdi/projects/a11y-project/a11y-site/src/pages/understandable.js": {
+      "query": "",
+      "componentPath": "/Users/gamacbook/wdi/projects/a11y-project/a11y-site/src/pages/understandable.js"
+    },
+    "/Users/gamacbook/wdi/projects/a11y-project/a11y-site/src/pages/robust.js": {
+      "query": "",
+      "componentPath": "/Users/gamacbook/wdi/projects/a11y-project/a11y-site/src/pages/robust.js"
+    },
+    "/Users/gamacbook/wdi/projects/a11y-project/a11y-site/src/pages/conformance.js": {
+      "query": "",
+      "componentPath": "/Users/gamacbook/wdi/projects/a11y-project/a11y-site/src/pages/conformance.js"
     }
   },
   "staticQueryComponents": {
-    "sq--src-components-layout-js": {
-      "name": "SiteTitleQuery",
-      "componentPath": "/Users/gamacbook/wdi/projects/a11y-project/a11y-site/src/components/layout.js",
-      "id": "sq--src-components-layout-js",
-      "jsonName": "sq--src-components-layout-js",
-      "query": "query SiteTitleQuery {\n  site {\n    siteMetadata {\n      title\n    }\n  }\n}\n",
-      "hash": 755544856
-    },
     "sq--src-components-seo-js": {
       "name": "usersGamacbookWdiProjectsA11YProjectA11YSiteSrcComponentsSeoJs2417117884",
       "componentPath": "/Users/gamacbook/wdi/projects/a11y-project/a11y-site/src/components/seo.js",
@@ -587,6 +727,14 @@
       "jsonName": "sq--src-components-seo-js",
       "query": "query usersGamacbookWdiProjectsA11YProjectA11YSiteSrcComponentsSeoJs2417117884 {\n  site {\n    siteMetadata {\n      title\n      description\n      author\n    }\n  }\n}\n",
       "hash": 2417117884
+    },
+    "sq--src-components-layout-js": {
+      "name": "SiteTitleQuery",
+      "componentPath": "/Users/gamacbook/wdi/projects/a11y-project/a11y-site/src/components/layout.js",
+      "id": "sq--src-components-layout-js",
+      "jsonName": "sq--src-components-layout-js",
+      "query": "query SiteTitleQuery {\n  site {\n    siteMetadata {\n      title\n    }\n  }\n}\n",
+      "hash": 755544856
     }
   }
 }
