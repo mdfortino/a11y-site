@@ -15,19 +15,20 @@
     "gatsby-transformer-sharp": "^2.1.17",
     "prop-types": "^15.7.2",
     "react": "^16.8.4",
+    "react-a11y": "^1.1.0",
     "react-dom": "^16.8.4",
     "react-helmet": "^5.2.0"
   },
   "devDependencies": {
     "prettier": "^1.16.4",
     "surge": "latest",
-  "git-scripts": "latest"
-},
-"git": {
-  "scripts": {
-    "pre-push": "surge --project ./public --a11y-toolkit.surge.sh"
-  }
-},
+    "git-scripts": "latest"
+  },
+  "git": {
+    "scripts": {
+      "pre-push": "surge --project ./public --a11y-toolkit.surge.sh"
+    }
+  },
   "keywords": [
     "gatsby"
   ],
