@@ -19,8 +19,15 @@
     "react-helmet": "^5.2.0"
   },
   "devDependencies": {
-    "prettier": "^1.16.4"
-  },
+    "prettier": "^1.16.4",
+    "surge": "latest",
+  "git-scripts": "latest"
+},
+"git": {
+  "scripts": {
+    "pre-push": "surge --project ./public --a11y-toolkit.surge.sh"
+  }
+},
   "keywords": [
     "gatsby"
   ],
