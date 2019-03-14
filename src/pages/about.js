@@ -8,7 +8,8 @@ const AboutPage = () => (
   <Layout>
     <SEO title="About" />
     <h1>About Accessibility</h1>
-
+    <h2> "“Before you release a website, tab through it. If you cannot see where you are on the page after each tab; you're not finished yet. #a11y" - Michiel Bijl</h2>
+    
     <h2> What is accessibility? </h2> 
     <p> From W3C: Web accessibility means that websites, tools, and technologies are designed and developed so that people with disabilities can use them. More specifically, people can:
 

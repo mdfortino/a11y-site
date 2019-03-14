@@ -20,9 +20,13 @@
     "react-helmet": "^5.2.0"
   },
   "devDependencies": {
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.12.4",
+    "git-scripts": "latest",
     "prettier": "^1.16.4",
-    "surge": "latest",
-    "git-scripts": "latest"
+    "surge": "latest"
   },
   "git": {
     "scripts": {
