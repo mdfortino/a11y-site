@@ -10,19 +10,24 @@ class Tools extends React.Component{
     }
     render() {
         return(
-            <Layout>
-            <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-          <div>
+            <Layout> 
+            <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} /> 
             <h1>Tools</h1> 
             <p>Based on WCAG 2.1, here is a compilation of tools, which are organized by each guideline.</p>
-
-            <h2> <Link to="/perceivable">Perceivable</Link></h2> 
-            <h2><Link to="/operable">Operable</Link></h2>
-            <h2><Link to="/understandable">Understandable</Link></h2>
-           <h2> <Link to="/conformance">Conformance</Link></h2>
-
-          </div>
-          </Layout>
+            <h2>Perceivable</h2> 
+            <p> WCAG Guideline: "Information and user interface components must be presentable to users in ways they can perceive."<p/> 
+            <p> What it means: Users, regardless of disability, need to be able to use your application and access all content.</p>
+            <p> What you need to do: You must provide text alternatives for any non-text content and make it easier for visually or audibly impaired users to access your content. </p>
+         
+            <Link to="/perceivable">toolkit</Link> </p>
+            <h2> Operable</h2>
+            <p><Link to="/operable">toolkit</Link></p>
+            <h2> Understandable</h2>
+            <p><Link to="/understandable">toolkit</Link></p>
+            <h2>Conformance</h2> 
+            <p><Link to="/conformance">toolkit</Link></p>
+            </Layout> 
+          
         )
     }
 }

@@ -1,6 +1,6 @@
 Bronze/MVP: 
 * work through tutorials to deepen knowledge of accessibility.
-* build simple react app  that is fully accessible (based on WCAG guidelines and testing) with the following features: home, resources, about.
+* build simple static site using react and gatsby that is fully accessible (based on WCAG guidelines and testing) with the following features: home, resources, about.
 * test accessibility of site
 
 Silver:

@@ -304,6 +304,10 @@
           {
             "name": "react-helmet",
             "version": "^5.2.0"
+          },
+          {
+            "name": "react-scripts",
+            "version": "2.1.5"
           }
         ],
         "devDependencies": [
@@ -461,12 +465,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-03-14T15:18:35.454Z",
+      "buildTime": "2019-03-15T13:20:50.925Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "64b17b0d991acb1cfa8b02cb0c96b9da",
+        "contentDigest": "58a964432c0a70cc952e5106ad883d4f",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -674,13 +678,13 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "bb5177fb8d3034aebcc76a55d9e252d7"
+    "PLUGINS_HASH": "0b04ff5c9677425b80234de9310f2104"
   },
   "componentDataDependencies": {
     "nodes": {
       "Site": [
-        "sq--src-components-seo-js",
-        "sq--src-components-layout-js"
+        "sq--src-components-layout-js",
+        "sq--src-components-seo-js"
       ]
     },
     "connections": {}

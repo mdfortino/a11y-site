@@ -25,6 +25,7 @@ https://www.levelaccess.com/
 http://pauljadam.com/bookmarklets/
 https://webaim.org/standards/wcag/checklist#sc1.3.1
 https://medium.com/pulsar/which-accessibility-testing-tool-should-you-use-e5990e6ef0a
+https://dev.to/maxwell_dev/the-web-accessibility-introduction-i-wish-i-had-4ope
 
 Categories of disability types are: 
 Visual

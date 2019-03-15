@@ -17,7 +17,12 @@
     "react": "^16.8.4",
     "react-a11y": "^1.1.0",
     "react-dom": "^16.8.4",
-    "react-helmet": "^5.2.0"
+    "react-helmet": "^5.2.0",
+    "react-scripts": "2.1.5"
+  },
+
+  "eslintConfig": {
+    "extends": "react-app"
   },
   "devDependencies": {
     "eslint-config-airbnb": "^17.1.0",
