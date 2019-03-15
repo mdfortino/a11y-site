@@ -13,7 +13,7 @@ class Tools extends React.Component{
             <Layout> 
             <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} /> 
             <h1>Tools</h1> 
-            <p>Based on WCAG 2.1, here is a compilation of tools, which are organized by each guideline.</p>
+            <p>Based on <a href = "https://www.w3.org/TR/WCAG21/"> WCAG 2.1</a>, here is a compilation of resources and tools that are organized by each guideline.</p>
             <h2>Perceivable</h2> 
             <p> WCAG Guideline: "Information and user interface components must be presentable to users in ways they can perceive."<p/> 
             <p> What it means: Users, regardless of disability, need to be able to use your application and access all content.</p>

@@ -7,34 +7,32 @@ import SEO from "../components/seo"
 const AboutPage = () => (
   <Layout>
     <SEO title="About" />
-    <h1>About Accessibility</h1>
-    <h2> "“Before you release a website, tab through it. If you cannot see where you are on the page after each tab; you're not finished yet. #a11y" - Michiel Bijl</h2>
-    
-    <h2> What is accessibility? </h2> 
-    <p> From W3C: Web accessibility means that websites, tools, and technologies are designed and developed so that people with disabilities can use them. More specifically, people can:
+    <h2> "The failure to address issues of accessibility for persons with physical, sensory, and cognitive disabilities ultimately threatens to segregate people with disabilities as the permanent second-class citizens of the information age."</h2>
 
-perceive, understand, navigate, and interact with the Web
-contribute to the Web
-Web accessibility encompasses all disabilities that affect access to the Web, including:
+    <h2> What is accessibility? </h2>
 
-auditory
-cognitive
-neurological
-physical
-speech
-visual
-Web accessibility also benefits people without disabilities, for example:
-
-people using mobile phones, smart watches, smart TVs, and other devices with small screens, different input modes, etc.
-older people with changing abilities due to ageing
-people with “temporary disabilities” such as a broken arm or lost glasses
-people with “situational limitations” such as in bright sunlight or in an environment where they cannot listen to audio
-people using a slow Internet connection, or who have limited or expensive bandwidth</p>
-    <p>According to the W3C: “web accessibility means that people with disabilities can use the web” (source) regardless of the disability. Reaching that level of access is the goal of the Web Content Accessibility Guidelines (WCAG) 2.1, which is the current applicable standard from the W3C.</p>
+    <p> Web accessibility means that people with disabilities can use the web regardless of the disability. Reaching that level of access is the goal of the Web Content Accessibility Guidelines (WCAG) 2.1, which is the current applicable standard from the W3C.</p>
 
     <p> When websites and web tools are properly designed and coded, people with disabilities can use them. However, currently many sites and tools are developed with accessibility barriers that make them difficult or impossible for some people to use.</p> 
 
     <p>Making the web accessible benefits individuals, businesses, and society. International web standards define what is needed for accessibility. </p>
+
+    <p>Good accessibility or "a11y" is crucial to making sure all users can access the content in your sites and applications. Making sure you consider accessibility at the start of your process will ensure that your final product is more polished and works for more people. </p>
+
+
+    <p> Source:<a href = "https://www.w3.org/TR/WCAG21/"> Web Content Accessibility Guidelines</a>
+    </p>
+    <h2> Why does it matter? </h2>
+<p>Beyond an issue of legal compliance and inclusion, it is proven that businesses that integrate accessibility are more likely to be innovative, inclusive enterprises that reach more people with positive brand messaging that meets emerging global legal requirements.</p>
+
+<p> A research study of Fortune 100 companies indicates that disability inclusion, as part of an overall diversity strategy, is common practice among high performing businesses.</p>
+
+<p> When accessibility is part of strategic planning, businesses are better equipped for success in our connected world of commerce, academia, and civic engagement. </p> 
+
+<p> Source:<a href = "https://www.w3.org/WAI/business-case/"> The Business Case for Digital Accessibility</a> </p> 
+
+<h2> How can this site can help you? </h2>
+<p> This site aims to break down the legal jargon into digestable guides and tools that everyone --developer, business leader, human-- can use to make accessible web formats...because accessibility should be accessible.</p> 
     <Link to="/">Go back to the homepage</Link>
   </Layout>
 )

@@ -1,7 +1,6 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
-
 import Header from "./header"
 import "./layout.css"
 
@@ -28,9 +27,10 @@ const Layout = ({ children }) => (
           }}
         >
           <main>{children}</main>
-          <footer>
-           
-          </footer>
+
+           <footer>
+          {/* <Footer></Footer> */}
+          </footer> 
         </div>
       </>
     )}
