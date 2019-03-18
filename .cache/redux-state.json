@@ -235,7 +235,7 @@
       "resolve": "/Users/gamacbook/wdi/projects/a11y-project/a11y-site",
       "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "name": "default-site-plugin",
-      "version": "e20994ae5567c58bd7a3753f5554fee3",
+      "version": "4dd5f45b37d763e6b1c6f92b186267c3",
       "pluginOptions": {
         "plugins": []
       },
@@ -258,8 +258,16 @@
             "version": "^2.1.31"
           },
           {
+            "name": "gatsby-cli",
+            "version": "^2.4.16"
+          },
+          {
             "name": "gatsby-image",
             "version": "^2.0.33"
+          },
+          {
+            "name": "gatsby-plugin-accessibilityjs",
+            "version": "^1.0.3"
           },
           {
             "name": "gatsby-plugin-manifest",
@@ -347,7 +355,7 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "c32a5d6ca51cb39ffe877f9fbe923815",
+        "contentDigest": "0802592ae214b59018c9389d6a0d050b",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -465,12 +473,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-03-15T14:47:33.839Z",
+      "buildTime": "2019-03-18T02:57:03.047Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "e088b6a95b5ce1e953b40b8284324010",
+        "contentDigest": "bdb4ad16b5e2c694fac1c26ebe4804d0",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -678,7 +686,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "0b04ff5c9677425b80234de9310f2104"
+    "PLUGINS_HASH": "5f50781b888081312916e41cfd0ace09"
   },
   "componentDataDependencies": {
     "nodes": {

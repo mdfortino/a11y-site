@@ -10,6 +10,6 @@
 
 3/14: Finish Up Bronze Plan, Deployment 
 
-3/15: Add to Perceivable page: 
+3/15: Add to Perceivable page, read me, redeploy 
 - 
 

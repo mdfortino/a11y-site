@@ -4,6 +4,22 @@ module.exports = {
     description: `An accessible website about accessibility `,
     author: `@gatsbyjs`,
   }
+  // plugins: [
+  //   {
+  //     resolve: `gatsby-plugin-accessibilityjs`,
+  //     options: {
+  //       injectStyles: `
+  //         .accessibility-error {
+  //           border: 3px solid #f00;
+  //         }
+  //       `,
+  //       errorClassName: `accessibility-error`,
+  //       onError: (error) => {
+  //         // do something with the error
+  //       },
+  //     },
+  //   },
+  // ];
 //   plugins: [
 //     `gatsby-plugin-react-helmet`,
 //     {
