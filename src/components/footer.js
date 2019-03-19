@@ -1,18 +1,14 @@
-import React, { Component } from 'react';
+import React from 'react'
+import PropTypes from 'prop-types'
 
-class footer extends Component {
-    render() {
-        return (
-    <footer>
-    <div className="footer-wrapper">
-      <Menu class="footer-menu" position="flex-start"> </Menu>
-      <div className="footer-details">
-        inpsired by many. a work in progress by Maria Fortino. 
-            </div>
-            </div>
-  </footer>
-        );
-    }
+const Footer = (props) => (
+    <footer id="footer" style={props.timeout ? {display: 'none'} : {}}>
+        <p> inspired by many. compiled by maria fortino.</p>
+    </footer>
+)
+
+Footer.propTypes = {
+    timeout: PropTypes.bool
 }
 
-export default footer;
+export default Footer

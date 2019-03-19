@@ -1,47 +1,32 @@
-import { Link } from "gatsby"
-import PropTypes from "prop-types"
-import React from "react"
+import React from 'react'
+import PropTypes from 'prop-types'
 
-const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      background: `blue`,
-      marginBottom: `1.45rem`,
-    }}
-  >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          {siteTitle}
-        </Link>
-        <ul style={{ listStyle: 'none', float: 'right'}}>
-          <li style={{ display: 'inline-block', marginRight: '1rem'}}><Link style={{color: 'white', textDecoration: 'none', fontSize: 'x-large'}} to="/">Home</Link></li>
-          <li style={{ display: 'inline-block', marginRight: '1rem'}}><Link style={{color: 'white', textDecoration: 'none', fontSize: 'x-large'}} to="/about">About</Link></li>
-          <li style={{ display: 'inline-block', marginRight: '1rem'}}><Link style={{color: 'white', textDecoration: 'none', fontSize: 'x-large'}} to="/tools">Tools</Link></li>
-        </ul>
-      </h1>
-    </div>
-  </header>
+const Header = (props) => (
+    <header id="header" style={props.timeout ? {display: 'none'} : {}}>
+        {/* <div className="logo">
+            <span className="icon fa-diamond"></span>
+        </div> */}
+        <div className="content">
+            <div className="inner">
+                <h1>a11y</h1>
+                <h2> let's build accessible websites ... </h2>
+                <p> because accessibility should be accessible </p>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('intro')}}>Intro</a></li>
+                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('work')}}>About</a></li>
+                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('about')}}>Toolkit</a></li>
+                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('contact')}}>Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 )
 
 Header.propTypes = {
-  siteTitle: PropTypes.string,
-}
-
-Header.defaultProps = {
-  siteTitle: ``,
+    onOpenArticle: PropTypes.func,
+    timeout: PropTypes.bool
 }
 
 export default Header

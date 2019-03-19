@@ -465,12 +465,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-03-15T14:47:33.839Z",
+      "buildTime": "2019-03-18T03:42:35.048Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "e088b6a95b5ce1e953b40b8284324010",
+        "contentDigest": "fa1c82bc024c332312ef9bb7f532095d",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -683,8 +683,8 @@
   "componentDataDependencies": {
     "nodes": {
       "Site": [
-        "sq--src-components-seo-js",
-        "sq--src-components-layout-js"
+        "sq--src-components-layout-js",
+        "sq--src-components-seo-js"
       ]
     },
     "connections": {}
@@ -692,7 +692,7 @@
   "jsonDataPaths": {
     "404-22d": "44/path---404-22-d-bce-NZuapzHg3X9TaN1iIixfv1W23E",
     "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
-    "sq--src-components-layout-js": 755544856,
+    "sq--src-components-layout-js": 2994927498,
     "sq--src-components-seo-js": 2417117884,
     "index": "173/path---index-6a9-NZuapzHg3X9TaN1iIixfv1W23E",
     "about-f34": "125/path---about-f-34-4c2-NZuapzHg3X9TaN1iIixfv1W23E",
@@ -761,7 +761,7 @@
       "id": "sq--src-components-layout-js",
       "jsonName": "sq--src-components-layout-js",
       "query": "query SiteTitleQuery {\n  site {\n    siteMetadata {\n      title\n    }\n  }\n}\n",
-      "hash": 755544856
+      "hash": 2994927498
     }
   }
 }
