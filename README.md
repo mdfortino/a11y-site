@@ -12,6 +12,7 @@ I spent the majority of project week following tutorials, reading the WCAG Guide
 
 ## Brief Example
 Ran Wave tool on Rent the Runway's site to show the many violations that made the site inaccessible. 
+
 ![Alt text](Planning/Image 3-19-19 at 3.32 PM.jpg "Rent the Runway Screenshot")
 
 ## Lighthouse Test Results
