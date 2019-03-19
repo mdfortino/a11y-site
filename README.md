@@ -8,7 +8,7 @@ The solution: A starting point/toolkit for developers. Take the time to research
 The user/target audience: The uninformed and unaffected web developer
 
 ## The Planning Stages
-I spent the majority of project week following tutorials, reading the WCAG Guidelins, testing companies' websites and practicing how to implement accesibility into coding exercises. (see planing folder for details). The challenge was to then build out MVP, Silver and Gold Plans for building something to help make accessibility accessible to developers. (see schedule.md for details)
+I spent the majority of project week following tutorials, reading the WCAG Guidelines, testing companies' websites and practicing how to implement accesibility through coding exercises. (see planing folder for details). The challenge was to then build out MVP, Silver and Gold Plans for building something to help make accessibility accessible to developers. (see schedule.md for details). 
 
 ## Brief Example
 Ran Wave tool on Rent the Runway's site to show the many violations that made the site inaccessible. 
@@ -38,4 +38,4 @@ To provide more detail, you can show how you categorized these features into Bro
 * Chrome Vox
 
 ## Unsolved Issues 
-Current status: 3/19: Met with Jaime 
+Current status: Working with Jaime, UX Designer, to build out wireframes for well-designed, accessible site. Will continue to update changes as we build out the site. See schedule for latest updates/plan. 
