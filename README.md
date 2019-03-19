@@ -12,7 +12,7 @@ I spent the majority of project week following tutorials, reading the WCAG Guide
 
 ## Brief Example
 Ran Wave tool on Rent the Runway's site to show the many violations that made the site inaccessible. 
-![ ](Planning/Image 3-19-19 at 3.32 PM.jpg)
+/Users/gamacbook/wdi/projects/a11y-project/a11y-site/Planning/Image 3-19-19 at 3.32 PM.jpg
 
 ## Lighthouse Test Results
 Ran tests on a handful of sites of companies I am interested in and generated reports showing data points like accessibility and SEO. See Lighthouse Test Results folder. In addition to generating reports, I began using the universal design template of Gatsbyjs, which includes a lighthouse plugin for testing accessibility of site as you build. 
