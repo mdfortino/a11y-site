@@ -19,8 +19,7 @@ Ran Wave tool on Rent the Runway's site to show the many violations that made th
 Ran tests on a handful of sites of companies I am interested in and generated reports showing data points like accessibility and SEO. See Lighthouse Test Results folder. In addition to generating reports, I began using the universal design template of Gatsbyjs, which includes a lighthouse plugin for testing accessibility of site as you build. 
 
 ## List of Features / User Stories
-This typically will be a short list of the features / user stories that you planned during the development phase of the project
-To provide more detail, you can show how you categorized these features into Bronze (MVP), Silver, and Gold Levels and indicate which features you complete / have yet to complete
+This will be updated, as wireframes are uploaded and features built out.
 
 ## List of Technologies Used
 
