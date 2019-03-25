@@ -24,4 +24,4 @@
 3. Link to WCAG Checklist
 4. Link to Toolkit 
 * Toolkit Page will include "Start here" part with 3-4 helpful links, i.e., wave tool, plugin + link to resources page (and/or github) that is a dump of all of the resources
-
+3/23-25: build out and test accessibility of gatsby starter dimension a11y toolkit repo 

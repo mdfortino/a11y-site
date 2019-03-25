@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
-
+import "./about.css" 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
@@ -31,8 +31,24 @@ const AboutPage = () => (
 
 <p> Source:<a href = "https://www.w3.org/WAI/business-case/"> The Business Case for Digital Accessibility</a> </p> 
 
-<h2> How can this site can help you? </h2>
+<h2> How can this site  help you? </h2>
 <p> This site aims to break down the legal jargon into digestable guides and tools that everyone --developer, business leader, human-- can use to make accessible web formats...because accessibility should be accessible.</p> 
+ <p> Click on the boxes below to learn more about each guideline</p>
+ {/* <div class="card">
+  <img src="img_avatar.png" alt="Avatar" style="width:100%"> */}
+  <div class="container">
+    <h4><b>Perceivable</b></h4> 
+    <p>Learn more</p> 
+  </div>
+
+ <Link to="/perceivable"></Link> 
+            <h2> Operable</h2>
+            <p><Link to="/operable">toolkit</Link></p>
+            <h2> Understandable</h2>
+            <p><Link to="/understandable">toolkit</Link></p>
+            <h2>Robust</h2> 
+            <p><Link to="/conformance">toolkit</Link></p>
+
     <Link to="/">Go back to the homepage</Link>
   </Layout>
 )

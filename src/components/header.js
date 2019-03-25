@@ -5,8 +5,8 @@ import React from "react"
 const Header = ({ siteTitle }) => (
   <header
     style={{
-      background: `blue`,
-      marginBottom: `1.45rem`,
+      background: `black`,
+      marginBottom: `10rem`,
     }}
   >
     <div
@@ -24,12 +24,11 @@ const Header = ({ siteTitle }) => (
             textDecoration: `none`,
           }}
         >
-          {siteTitle}
+          {/* {siteTitle} */}
         </Link>
         <ul style={{ listStyle: 'none', float: 'right'}}>
-          <li style={{ display: 'inline-block', marginRight: '1rem'}}><Link style={{color: 'white', textDecoration: 'none', fontSize: 'x-large'}} to="/">Home</Link></li>
           <li style={{ display: 'inline-block', marginRight: '1rem'}}><Link style={{color: 'white', textDecoration: 'none', fontSize: 'x-large'}} to="/about">About</Link></li>
-          <li style={{ display: 'inline-block', marginRight: '1rem'}}><Link style={{color: 'white', textDecoration: 'none', fontSize: 'x-large'}} to="/tools">Tools</Link></li>
+          <li style={{ display: 'inline-block', marginRight: '1rem'}}><Link style={{color: 'white', textDecoration: 'none', fontSize: 'x-large'}} to="/tools">Toolkit</Link></li>
         </ul>
       </h1>
     </div>

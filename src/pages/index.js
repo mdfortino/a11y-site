@@ -8,13 +8,13 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
     <div role="banner">
+    <h1> a11y </h1> 
     <h1>Let's build accessible websites...</h1>
-    <p>because accessibility should be accessible.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
+    <h2>because accessibility should be accessible.</h2>
+    <div style={{ maxWidth: `300px`, marginBottom: `5rem` }}>
     </div>
     </div>
-    <Link to="/about">Learn more</Link>
+    {/* <Link to="/about">START HERE</Link> */}
     <div> 
     </div>
   </Layout>

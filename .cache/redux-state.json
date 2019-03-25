@@ -473,12 +473,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-03-18T02:57:03.047Z",
+      "buildTime": "2019-03-24T20:43:05.637Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "bdb4ad16b5e2c694fac1c26ebe4804d0",
+        "contentDigest": "ce475673e04d72ebee574efa717332a1",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -691,8 +691,8 @@
   "componentDataDependencies": {
     "nodes": {
       "Site": [
-        "sq--src-components-seo-js",
-        "sq--src-components-layout-js"
+        "sq--src-components-layout-js",
+        "sq--src-components-seo-js"
       ]
     },
     "connections": {}
@@ -700,7 +700,7 @@
   "jsonDataPaths": {
     "404-22d": "44/path---404-22-d-bce-NZuapzHg3X9TaN1iIixfv1W23E",
     "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
-    "sq--src-components-layout-js": 755544856,
+    "sq--src-components-layout-js": 2994927498,
     "sq--src-components-seo-js": 2417117884,
     "index": "173/path---index-6a9-NZuapzHg3X9TaN1iIixfv1W23E",
     "about-f34": "125/path---about-f-34-4c2-NZuapzHg3X9TaN1iIixfv1W23E",

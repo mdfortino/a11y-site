@@ -24,7 +24,7 @@ class Tools extends React.Component{
             <p><Link to="/operable">toolkit</Link></p>
             <h2> Understandable</h2>
             <p><Link to="/understandable">toolkit</Link></p>
-            <h2>Conformance</h2> 
+            <h2>Robust</h2> 
             <p><Link to="/conformance">toolkit</Link></p>
             </Layout> 
           
