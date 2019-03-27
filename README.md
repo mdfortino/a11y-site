@@ -18,8 +18,6 @@ Ran Wave tool on Rent the Runway's site to show the many violations that made th
 ## Lighthouse Test Results
 Ran tests on a handful of sites of companies I am interested in and generated reports showing data points like accessibility and SEO. See Lighthouse Test Results folder. In addition to generating reports, I began using the universal design template of Gatsbyjs, which includes a lighthouse plugin for testing accessibility of site as you build. 
 
-## List of Features / User Stories
-This will be updated, as wireframes are uploaded and features built out.
 
 ## List of Technologies Used
 
