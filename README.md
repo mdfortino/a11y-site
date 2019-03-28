@@ -36,4 +36,4 @@ Ran tests on a handful of sites of companies I am interested in and generated re
 * Chrome Vox
 
 ## Unsolved Issues 
-Current status: I deployed the site here: http://a11y-toolkit.surge.sh/. Working with Jaime, UX Designer, to build out wireframes for well-designed, accessible site. Will continue to update changes as we build out the site. See schedule for latest updates/plan. 
+Current status: I deployed the site here: http://a11y-toolkit.surge.sh/ and need to make it reponsive and add to some pages, as I gather feedback from developers/users. Working with Jaime, UX Designer, to build out wireframes for well-designed, accessible site. Will continue to update changes as we build out the site. See schedule for latest updates/plan. 
