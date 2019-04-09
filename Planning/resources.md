@@ -50,6 +50,7 @@ Udacity/Google Course on Accessibility: https://classroom.udacity.com/courses/ud
 
 Videos: 
 https://www.youtube.com/watch?v=jC_7NnRdYb0 
+2019 Digital Accessibility Trends with Tim Springer, Level Access https://www.youtube.com/watch?v=225EnX5bN3o&feature=youtu.be  
 
 
 EdTech: 
