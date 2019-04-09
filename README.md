@@ -18,8 +18,6 @@ Ran Wave tool on Rent the Runway's site to show the many violations that made th
 ## Lighthouse Test Results
 Ran tests on a handful of sites of companies I am interested in and generated reports showing data points like accessibility and SEO. See Lighthouse Test Results folder. In addition to generating reports, I began using the universal design template of Gatsbyjs, which includes a lighthouse plugin for testing accessibility of site as you build. 
 
-## List of Features / User Stories
-This will be updated, as wireframes are uploaded and features built out.
 
 ## List of Technologies Used
 
@@ -38,4 +36,4 @@ This will be updated, as wireframes are uploaded and features built out.
 * Chrome Vox
 
 ## Unsolved Issues 
-Current status: Working with Jaime, UX Designer, to build out wireframes for well-designed, accessible site. Will continue to update changes as we build out the site. See schedule for latest updates/plan. 
+Current status: I deployed the site here: http://a11y-toolkit.surge.sh/. Remaining developments are making it responsive and completing some pages, as I gather feedback from developers/users. Working with Jaime, UX Designer, to build out wireframes for well-designed, accessible site. Will continue to update changes as we build out the site. See schedule in Planning folder for latest updates/plan. 
